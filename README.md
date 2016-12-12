@@ -1,6 +1,6 @@
 # Job Hunt
 
-Job Hunt is an Indeed Search client for Android. 
+Use Job Hunt to find your next job. Select a location and a job title and Indeed's comprehensive search results will provide you with thousands of available opportunities. Find a job you like? Go ahead and save it. With Job Hunt, you can also specify what jobs you've applied to so you can keep track of your applications.
  
 
 ### Download from Play Store
