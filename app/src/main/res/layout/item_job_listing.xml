@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_job_background"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:clickable="true"
+    android:foreground="@drawable/ripple_effect">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/mid_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/item_job_company_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-regular"
+            android:maxLines="1"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:id="@+id/item_job_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-regular"
+            android:maxLines="1"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_job_snippet_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-regular"
+            android:maxLines="1"
+            android:textColor="@color/text_secondary_dark"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_job_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-regular"
+            android:textColor="@color/text_secondary_dark"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/item_job_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/asl_trimclip_heart" />
+    </LinearLayout>
+</FrameLayout>

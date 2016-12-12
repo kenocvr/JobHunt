@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_applied_job_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:clickable="true"
+    android:foreground="@drawable/ripple_effect"
+    app:cardElevation="@dimen/z_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/item_applied_job_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/item_applied_time_ago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/text_tertiary_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_applied_job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_applied_job_company"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="16dp"
+            android:textColor="@color/text_tertiary_dark"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/item_applied_job_snippet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/item_applied_job_title"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/text_secondary_dark"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

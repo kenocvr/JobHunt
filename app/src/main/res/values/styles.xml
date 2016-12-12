@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <style name="AppTheme"
+      parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:colorPrimary">@color/background_light</item>
+    <item name="android:colorBackground">@color/background_light</item>
+    <item name="android:textColorHint">@color/hint_disabled_dark</item>
+    <item name="android:windowBackground">@color/background_light</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowSharedElementsUseOverlay">false</item>
+    <item name="android:statusBarColor">@color/status_bar_light</item>
+    <item name="android:navigationBarColor">@color/light_immersive_bars</item>
+    <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+  </style>
+
+  <style name="AppTheme.Home">
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowActionModeOverlay">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+  </style>
+
+  <style name="AppTheme.Translucent">
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+  </style>
+
+  <style name="AppTheme.Translucent.Search">
+    <item name="android:windowAnimationStyle">@style/SearchWindowAnimations</item>
+    <item name="android:windowEnterTransition">@transition/search_enter</item>
+    <item name="android:windowReturnTransition">@transition/search_return</item>
+    <item name="android:windowSharedElementEnterTransition">@transition/search_shared_enter</item>
+    <item name="android:windowSharedElementReturnTransition">@transition/search_shared_return</item>
+    <item name="android:windowSharedElementsUseOverlay">true</item>
+  </style>
+
+  <style name="AppThemeDarkOverlay" parent="@android:style/ThemeOverlay.Material.ActionBar">
+
+  </style>
+
+  <style name="SearchViewTheme" parent="AppThemeDarkOverlay">
+    <item name="colorControlActivated">?android:colorAccent</item>
+    <item name="android:searchViewStyle">@style/Widget.AppTheme.SearchView</item>
+  </style>
+
+  <style name="Widget.AppTheme.SearchView" parent="android:style/Widget.Material.SearchView">
+    <item name="android:searchIcon">@android:color/transparent</item>
+    <item name="android:queryBackground">@android:color/transparent</item>
+    <item name="android:submitBackground">@android:color/transparent</item>
+  </style>
+
+  <style name="Widget.AppTheme" parent="android:Widget" />
+
+  <style name="TextAppearance.DialogContent" parent="@android:style/TextAppearance.Material.Subhead">
+    <item name="android:textColor">@color/text_secondary_dark</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:letterSpacing">0.01</item>
+  </style>
+
+  <style name="Widget.AppTheme.EmptyText">
+    <item name="android:textAppearance">@style/TextAppearance.DialogContent</item>
+    <item name="lineHeightHint">24sp</item>
+    <item name="android:textColor">@color/text_secondary_dark</item>
+  </style>
+
+  <style name="SearchWindowAnimations">
+    <item name="android:windowEnterAnimation">@null</item>
+    <item name="android:windowExitAnimation">@anim/fade_out_rapidly</item>
+  </style>
+
+</resources>

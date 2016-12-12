@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/job_titles_sub_header"
+            android:title="@string/drawer_job_type_header">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_type_full_time"
+                    android:title="@string/drawer_item_full_time" />
+                <item
+                    android:id="@+id/menu_type_part_time"
+                    android:title="@string/drawer_item_part_time" />
+                <item
+                    android:id="@+id/menu_type_internship"
+                    android:title="@string/drawer_item_internship" />
+                <item
+                    android:id="@+id/menu_type_contract"
+                    android:title="@string/drawer_item_contract" />
+                </group>
+            </menu>
+        </item>
+</menu>

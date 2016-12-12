@@ -1,0 +1,38 @@
+<resources>
+  <string name="app_name">Job Hunt</string>
+
+  <!-- Home Activity -->
+  <string name="toolbar_title">Search for jobs</string>
+  <string name="no_saved_jobs">Your saved jobs will appear here</string>
+  <string name="no_applied_jobs">The jobs you\'ve applied to will appear here</string>
+  <string name="no_recent_searches">Your recent searches will appear here</string>
+
+  <!-- Search Activity -->
+  <string name="search_hint">Job title, keywords, or company</string>
+  <string name="location_search_hint">City, state, or zip code</string>
+  <string name="no_search_results">No results for\n“%1$s”</string>
+
+  <!-- Transition Shared Elements -->
+  <string name="transition_search_back" translatable="false">transition_search_back</string>
+
+  <!-- Buttons -->
+  <string name="remove_button_title">Remove</string>
+  <string name="applied_button_title">Applied</string>
+
+  <!-- Bottom Nav -->
+  <string name="bottom_nav_recent_title">Recent</string>
+  <string name="bottom_nav_saved_title">Saved</string>
+  <string name="bottom_nav_applied_title">Applied</string>
+
+  <!-- Drawer -->
+  <string name="drawer_job_type_header">Job Type</string>
+  <string name="drawer_item_full_time">Full-time</string>
+  <string name="drawer_item_part_time">Part-time</string>
+  <string name="drawer_item_internship">Internship</string>
+  <string name="drawer_item_contract">Contract</string>
+
+  <!-- Menus -->
+  <string name="menu_item_search_title">Search</string>
+  <string name="menu_item_options_title">Options</string>
+
+</resources>
